@@ -60,3 +60,66 @@ header{
     margin-left: 25px;
     display: none;
 }
+
+
+/* ----- This is Home Section --------- */
+
+.slider{
+    position: relative;
+    width: 100%;
+    background: #2c3e50;
+}
+.homeSlider{
+    height: 655px;
+    overflow: hidden;
+
+}
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 50px;
+    padding: 15px;
+    color: white;
+    transition: 0.1s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover{
+    color: #3498db;
+}
+.next{
+    right: 0;
+}
+.dotsbox{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    cursor: pointer;
+    }
+.dot{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    opacity: 0.9
+    
+}
+@keyframes{
+    opacity: 0.9
+    
+
+}
