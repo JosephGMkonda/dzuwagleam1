@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background: white;
+    background: whitesmoke
 }
 
 header{
@@ -20,7 +20,7 @@ header{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    /* background:#000000; */
+    background:#000000;
     opacity: 0.9;
     color: white;
     padding: 22px 15%;
@@ -186,6 +186,8 @@ img{
 
 .aboutsection{
     margin: 4rem;
+    display: flex;
+    flex-direction: column;
     
 
 }
@@ -202,10 +204,74 @@ img{
 }
 
 .aboutus-title  p{
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-left: 5rem;
     margin-right: 5rem;
     align-content: center;
     font-size: 1.1rem;
     font-family: sans-serif;
     
+}
+
+.aboutus-title  p span{
+    font-size: bold;
+    color: red;
+    font-weight: bold;
+}
+.aboutsection .row{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutsection .solzarSystem{
+    flex: 0 0 50%;
+    height: 600px;
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: url('images/galaxy.jpeg') no-repeat;
+    background-size: cover;
+    
+
+
+    
+}
+.sun{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: rgb(225, 81, 0);
+     position: absolute;
+    box-shadow: 0 0 75px rgba(255,141,0,1);
+}
+.earth{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: url('images/earth-5.jpg') no-repeat; 
+    position: relative;
+    background-size: cover;
+    border: none;
+    animation: earth-orbit 7s linear infinite;
+
+
+
+}
+
+@keyframes earth-orbit{
+    from{
+        transform: rotate(0deg) translateX(220px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(220px) rotate(-360deg);
+    }
+}
+
+.aboutsection .aboutInfo{
+    flex: 0 0 50%;
+    
+
 }
