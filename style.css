@@ -239,39 +239,38 @@ header{
 
     
 }
-.sun{
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    background: rgb(225, 81, 0);
-     position: absolute;
-    box-shadow: 0 0 75px rgba(255,141,0,1);
-}
-.earth{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background: url('images/earth-5.jpg') no-repeat; 
-    position: relative;
-    background-size: cover;
-    border: none;
-    animation: earth-orbit 7s linear infinite;
 
-
-
-}
-
-@keyframes earth-orbit{
-    from{
-        transform: rotate(0deg) translateX(220px) rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg) translateX(220px) rotate(-360deg);
-    }
-}
 
 .aboutsection .aboutInfo{
     flex: 0 0 50%;
+    margin-left: 3rem;
     
 
+}
+.aboutInfo .about-title{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.aboutsection .aboutInfo .info-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+
+.aboutsection .aboutInfo .info{
+    padding: 20px 20px;
+    
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+
+}  
+
+.aboutsection .aboutInfo .info-item{
+    
 }
