@@ -160,7 +160,7 @@ header{
     font-size: 20px;
 
 }
-img{
+.Img{
     transform: scale(1.5,1.5);
     -webkit-animation-name: zoomin;
     -webkit-animation-duration: 40s;
