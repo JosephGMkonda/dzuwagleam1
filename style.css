@@ -272,5 +272,41 @@ header{
 }  
 
 .aboutsection .aboutInfo .info-item{
-    
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+
+.aboutsection .aboutInfo .info-item:last-child{
+padding-bottom: 0;
+}
+
+.aboutsection .aboutInfo .info-item::before{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: red;
+}
+.aboutsection .aboutInfo .circle-dot{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+.aboutsection .aboutInfo .info-title{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 12px;
+
+}
+.aboutsection .aboutInfo .timeline-text{
+    line-height: 20px;
+    font-size: 16px;
+    text-align: justify;
 }
