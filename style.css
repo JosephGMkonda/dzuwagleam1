@@ -389,3 +389,40 @@ padding-bottom: 0;
     text-align: center;
     
 }
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+}
+
+.contact-info-item {
+    text-align: center;
+    margin: 0 20px; /* Adjust the margin as needed */
+    max-width: 200px; 
+}
+
+.icon-info img {
+    width: 50px; /* Adjust the width of the icon as needed */
+    height: 50px; /* Adjust the height of the icon as needed */
+}
+
+h4 {
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+p {
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.contact-message h3{
+    text-align: center;
+    margin-top: 2rem;
+    color: red;
+
+}
