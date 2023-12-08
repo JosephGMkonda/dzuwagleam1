@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +10,11 @@
     scroll-behavior: smooth;
 }
 body{
-    background: whitesmoke
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Poppins' sans-serif;
+    background: white;
+    
 }
 :root{
     --bg-black-900: #f2f2fc;
@@ -17,6 +23,7 @@ body{
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
     --text-title-200: #7632D2
+
 }
 
 header{
@@ -28,37 +35,39 @@ header{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background:#000000;
-    opacity: 0.9;
-    color: white;
-    padding: 22px 15%;
-    border-bottom: 1px solid transparent;
+    background: white;
+    color: black;
+    padding: 5px 10%;
+    border-bottom: 1px solid;
     transition: all .45s ease;
 }
 .logo{
-    color: white;
+    color:rgb(56, 130, 209);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1px;
 }
-.logo span{
-    color: red;
-}
+
 .navlist{
     display: flex;
 }
 .navlist a{
-    color: white;
-    font-size: 17px;
+    color: black;
+    font-size: 20px;
     font-weight: 500;
-    margin: 0 25px;
+    padding: 10px 15px;
+    margin: 5px;
     transition: all .45s ease;
+    border-radius: 22px;
 }
 .navlist a:hover{
-    color: red;
+    transition: 0.25s;
+    background: rgb(56, 130, 209);
+    color: white;
 }
 .navlist a.active{
-    color: red;
+    background: rgb(56, 130, 209);
+    color: white;
 }
 #menu-icon{
     font-size: 35px;
