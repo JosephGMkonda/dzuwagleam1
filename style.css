@@ -176,15 +176,25 @@ header{
 }
 
 .text-headers h2{
-    color:rgb(12, 5, 5);
+    color: white;
     font-weight: bold;
     margin: 20px;
-    font-size: 30px;
+    width: 40%;
+    line-height: 50px;
+    font-size: 50px;
+}
+.text-headers h2 span{
+    color: red;
 }
 .text-headers p{
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
+    width: 60%;
 
+}
+.text-headers p span{
+    color: red;
+    font-weight: 900;
 }
 .Img{
     transform: scale(1.5,1.5);
