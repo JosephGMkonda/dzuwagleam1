@@ -306,9 +306,10 @@ header{
 
 }
 .aboutInfo .about-title{
+    color:rgb(56, 130, 209);
     font-size: 24px;
     font-weight: 700;
-    text-align: center; /* Center the text horizontally */
+    text-align: center; 
     display: flex;
     display: flex;
     flex-direction: column;
@@ -346,7 +347,7 @@ padding-bottom: 0;
     height: 100%;
     left: 7px;
     top: 0;
-    background-color: red;
+    background-color:rgb(56, 130, 209);
 }
 .aboutsection .aboutInfo .circle-dot{
     position: absolute;
@@ -355,12 +356,13 @@ padding-bottom: 0;
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: red;
+    background-color:rgb(56, 130, 209);
 }
 .aboutsection .aboutInfo .info-title{
     font-weight: 700;
     font-size: 14px;
-    margin-bottom: 12px;
+    
+    color:rgb(56, 130, 209);
 
 }
 .aboutsection .aboutInfo .timeline-text{
@@ -376,7 +378,7 @@ padding-bottom: 0;
 }
 .service-title{
     margin: 2rem;
-    color: red;
+    color:rgb(56, 130, 209);
 }
 
 .service-items {
@@ -386,20 +388,23 @@ padding-bottom: 0;
 }
 
 .service-item {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 5px;
+    flex: 0 0 calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+    margin-bottom: 10px; 
     padding: 30px;
     
     
 }
 .service-inner-item{
-    background: wheat;
-    border: 1px solid blueviolet;
-    padding: 20px;
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
     cursor: pointer;
+    height: 100%; 
+    box-sizing: border-box;
 }
 .service-inner-item:hover{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -420,6 +425,7 @@ padding-bottom: 0;
 }
 
 .service-inner-item h4{
+    color:rgb(56, 130, 209);
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: 700;
@@ -443,7 +449,7 @@ padding-bottom: 0;
 
 /* ==========Contact ================= */
 .contact-title{
-    color: red;
+    color:rgb(56, 130, 209);
     text-align: center;
     
 }
@@ -472,6 +478,7 @@ padding-bottom: 0;
 
 h4 {
     margin: 10px 0; 
+    color:rgb(56, 130, 209);
 }
 
 p {
@@ -481,7 +488,7 @@ p {
 .contact-message h3{
     text-align: center;
     margin-top: 2rem;
-    color: red;
+    color:rgb(56, 130, 209);
 
 }
 .contact-form{
@@ -511,6 +518,6 @@ p {
 }
 
 .form-group {
-    margin-bottom: 15px; /* Add some spacing between the input fields */
+    margin-bottom: 15px; 
 }
 
