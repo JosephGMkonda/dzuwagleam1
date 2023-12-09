@@ -221,7 +221,8 @@ header{
 /* -------The about Section------------------ */
 
 .aboutsection{
-    margin: 4rem;
+    padding-top: 2rem;
+    margin: 5rem;
     display: flex;
     flex-direction: column;
     
@@ -231,12 +232,33 @@ header{
     text-align: center;
     
 }
+.aboutus-title {
+    display: inline-block;
+    position: relative;
+}
+
+.aboutus-title h2 {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.aboutus-title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #000; 
+}
 .aboutus-title h2{
-    margin: 3rem;
-    font-weight: bold;
-    font-size: 3rem;
+    
+    font-weight: 700;
+    font-size: 30px;
     color: red;
-    font-family: sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 
 .aboutus-title  p{
@@ -256,7 +278,7 @@ header{
     font-weight: bold;
 }
 .aboutsection .row{
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: row;
 }
