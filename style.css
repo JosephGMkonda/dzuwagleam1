@@ -558,3 +558,30 @@ textarea.form-control{
     border-color: #45a049; 
     color: #ffffff; 
 }
+
+
+
+
+.testimony h2 {
+    text-align: center;
+    color: #3498db;
+}
+.testimony h4{
+    text-align: center;
+}
+
+.testimony .test-container{
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.testimony .test-container .testimonials{
+    height: 50vh;
+    width: 60vw;
+}
+
+
