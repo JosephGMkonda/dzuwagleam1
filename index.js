@@ -72,8 +72,8 @@ document.querySelector(".Next").addEventListener("click", () => {
     computeTestmonials(1)
 })
 
-function computeTestmonials(t){
-    showTestmonials(( testCounter += t))
+function computeTestmonials(){
+    showTestmonials(( testCounter += 1))
 }
 
 
@@ -95,4 +95,4 @@ function showTestmonials(n){
 
 }
 
- 
+ setInterval(computeTestmonials, 10000)
