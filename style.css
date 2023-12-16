@@ -630,3 +630,12 @@ textarea.form-control{
 
 }
 
+.footer{
+    padding: 2rem;
+    background: #121b25;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 3.5rem;
+    color: white;
+
+}
