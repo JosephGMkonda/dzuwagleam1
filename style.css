@@ -43,7 +43,7 @@ header{
 }
 .logo{
     color:rgb(56, 130, 209);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -53,7 +53,7 @@ header{
 }
 .navlist a{
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding: 10px 15px;
     margin: 5px;
@@ -184,7 +184,7 @@ header{
     font-size: 50px;
 }
 .text-headers h2 span{
-    color: red;
+    color:rgb(56, 130, 209);
 }
 .text-headers p{
     font-weight: 500;
@@ -193,7 +193,7 @@ header{
 
 }
 .text-headers p span{
-    color: red;
+    color:rgb(56, 130, 209);
     font-weight: 900;
 }
 .Img{
@@ -222,7 +222,7 @@ header{
 
 .aboutsection{
     padding-top: 2rem;
-    margin: 5rem;
+    margin: 10rem;
     display: flex;
     flex-direction: column;
     
@@ -243,21 +243,12 @@ header{
     
 }
 
-.aboutus-title::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 2px;
-    background-color: #000; 
-}
+
 .aboutus-title h2{
     
     font-weight: 700;
     font-size: 30px;
-    color: red;
+    color:rgb(56, 130, 209);
     font-family: 'Poppins' sans-serif;
 }
 
@@ -307,7 +298,7 @@ header{
 }
 .aboutInfo .about-title{
     color:rgb(56, 130, 209);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center; 
     display: flex;
@@ -322,7 +313,7 @@ header{
     }
 
 .aboutsection .aboutInfo .info{
-    padding: 20px 20px;
+    
     
     border-radius: 10px;
     width: 100%;
@@ -333,7 +324,7 @@ header{
 .aboutsection .aboutInfo .info-item{
     position: relative;
     padding-left: 37px;
-    padding-bottom: 50px;
+
 }
 
 .aboutsection .aboutInfo .info-item:last-child{
@@ -360,7 +351,7 @@ padding-bottom: 0;
 }
 .aboutsection .aboutInfo .info-title{
     font-weight: 700;
-    font-size: 14px;
+    font-size: 15px;
     
     color:rgb(56, 130, 209);
 
@@ -577,7 +568,7 @@ textarea.form-control{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 4rem;
+    
     overflow: hidden;
     
 
@@ -602,10 +593,7 @@ textarea.form-control{
 
     }
 }
-.pagenation{
-    align-items: center;
 
-}
 .Prev,
 .Next {
     
