@@ -58,3 +58,14 @@ function slideFun(n){
     dot[counter - 1].classList.add('active');
 
 }
+
+// this testmonial class here 
+
+
+let testCounter = 1;
+
+function showTestmonials(n){
+    
+}
+
+ 
