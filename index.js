@@ -62,10 +62,37 @@ function slideFun(n){
 // this testmonial class here 
 
 
-let testCounter = 1;
+let testCounter = 0;
+showTestmonials(testCounter)
+document.querySelector(".Prev").addEventListener("click", () => {
+    computeTestmonials(-1)
+})
+
+document.querySelector(".Next").addEventListener("click", () => {
+    computeTestmonials(1)
+})
+
+function computeTestmonials(t){
+    showTestmonials(( testCounter += t))
+}
+
+
 
 function showTestmonials(n){
-    
+    let i;
+    let testmonials = document.getElementsByClassName('testimonials');
+
+    if(n > testmonials.length){
+        testCounter = 1;
+    }
+    if(n < 1){
+        testCounter = testmonials.length;
+    }
+    for(i = 0; i < testmonials.length; i++){
+        testmonials[i].style.display = "none"
+    }
+    testmonials[testCounter - 1].style.display = "flex"
+
 }
 
  
