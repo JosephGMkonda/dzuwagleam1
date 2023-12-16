@@ -556,20 +556,21 @@ textarea.form-control{
 .testimony h2 {
     text-align: center;
     color: #3498db;
+    
 }
 .testimony h4{
     text-align: center;
 }
 
 .testimony .test-container{
-    min-height: 100vh;
+    
     font-family: "Poppins", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     
-    overflow: hidden;
+    
     
 
 }
