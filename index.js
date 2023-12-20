@@ -96,3 +96,27 @@ function showTestmonials(n){
 }
 
  setInterval(computeTestmonials, 10000)
+
+
+ // Get the height of the fixed navigation bar
+const navbarHeight = document.querySelector('header').offsetHeight;
+
+// Function to handle smooth scrolling to sections
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  const sectionPosition = section.offsetTop - navbarHeight;
+
+  window.scrollTo({
+    top: sectionPosition,
+    behavior: 'smooth'
+  });
+}
+
+// Attach click event listeners to your navigation links
+document.querySelectorAll('header a').forEach(link => {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    const sectionId = this.getAttribute('href').substring(1);
+    scrollToSection(sectionId);
+  });
+});

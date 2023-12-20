@@ -221,13 +221,18 @@ header{
 /* -------The about Section------------------ */
 
 .aboutsection{
-    padding-top: 2rem;
-    margin: 10rem;
+    
+   
     display: flex;
     flex-direction: column;
     
 
 }
+.aboutInfoSection{
+    
+    
+}
+
 .aboutus-title{
     text-align: center;
     
@@ -269,7 +274,8 @@ header{
     font-weight: bold;
 }
 .aboutsection .row{
-    margin-top: 4rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
     display: flex;
     flex-direction: row;
 }
@@ -291,6 +297,7 @@ header{
 
 
 .aboutsection .aboutInfo{
+    margin-top: 4rem;
     flex: 0 0 50%;
     margin-left: 3rem;
     
