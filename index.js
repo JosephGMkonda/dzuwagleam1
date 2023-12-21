@@ -120,3 +120,9 @@ document.querySelectorAll('header a').forEach(link => {
     scrollToSection(sectionId);
   });
 });
+
+
+function toggleMenu() {
+    var navList = document.querySelector('.navlist');
+    navList.classList.toggle('show');
+}
