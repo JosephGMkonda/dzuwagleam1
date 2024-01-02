@@ -242,7 +242,7 @@ header{
     position: relative;
 }
 
-.aboutus-title h2 {
+.aboutus-tit  h2 {
     display: inline-block;
     position: relative;
     
@@ -687,17 +687,41 @@ textarea.form-control{
           
                 }
 @media (max-width: 768px) {
+    /* Your existing CSS styles */
+
+#menu-icon {
+    display: inline-block;
+  }
+  
+  #menu-icon span {
+    font-size: 20px; /* Adjust the size as needed */
+    margin-right: 5px; /* Adjust spacing as needed */
+  }
+  
     header .navlist{
         position: absolute;
-        top: 99%; left:0; right:0;
-        border-top: #3498db;
+        top: 100%; left:0; right:0;
+        border-top: 1px solid #000;
         background: white;
-        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+        clip-path: polygon(0 0,100% 0, 100% 0, 0 0);
     }
+    header .navlist:active{
+        clip-path: polygon(0 0,100% 0, 100% 0, 0 0);
+
+    }
+    .navlist a{
+        display: block;
+        margin: 1rem;
+        text-align: center;
+
     
     
 }
-
+}
 @media (max-width:450px) {
          html{
             font-size: 50%;
