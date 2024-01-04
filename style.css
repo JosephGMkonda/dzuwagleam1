@@ -383,9 +383,10 @@ padding-bottom: 0;
 }
 /* --------Banner section--------- */
 .counter-wrapper{
-    background: url(images/bannerimg2.jpg);
+    background: url(images/bannerimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 10rem 9%;
@@ -393,6 +394,32 @@ padding-bottom: 0;
     position: relative;
 
 }
+.counter-wrapper::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.counter{
+    text-align: center;
+    color: #ddd;
+    z-index: 2;
+    position: relative;
+}
+.counter::before{
+  position: absolute;
+  content: '';
+  bottom: -2rem;
+  left: 50%;
+  width: 20%;
+  background: #4db7fe;
+
+}
+
 
 /* --------Service  Section Style */
 
