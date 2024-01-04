@@ -381,6 +381,18 @@ padding-bottom: 0;
     font-size: 16px;
     text-align: justify;
 }
+/* --------Banner section--------- */
+.counter-wrapper{
+    background: url(images/bannerimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10rem 9%;
+    margin-top: 5rem;
+    position: relative;
+
+}
 
 /* --------Service  Section Style */
 
