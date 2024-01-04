@@ -132,7 +132,7 @@ function toggleMenu() {
 
 ////Banner function//////
 const counts = document.querySelectorAll('.count')
-const speed = 270
+const speed = 97
 
 counts.forEach((counter)=>{
    function upData(){
