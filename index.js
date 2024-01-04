@@ -126,3 +126,8 @@ function toggleMenu() {
     var navList = document.querySelector('.navlist');
     navList.classList.toggle('show');
 }
+
+
+
+
+////Banner function//////
