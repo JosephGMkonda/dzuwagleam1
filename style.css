@@ -56,11 +56,11 @@ header{
 }
 .navlist a:hover{
     transition: 0.25s;
-    background: rgb(56, 130, 209);
+    background: green;
     color: white;
 }
 .navlist a.active{
-    background: rgb(56, 130, 209);
+    background: green;
     color: white;
 }
 #menu-icon{
@@ -109,7 +109,7 @@ header{
 }
 
 .prev:hover, .next:hover{
-    color: #3498db;
+    color: green;
 }
 .next{
     right: 0;
@@ -178,7 +178,7 @@ header{
     font-size: 50px;
 }
 .text-headers h2 span{
-    color:rgb(56, 130, 209);
+    color:green;
 }
 .text-headers p{
     font-weight: 500;
@@ -187,7 +187,7 @@ header{
 
 }
 .text-headers p span{
-    color:rgb(56, 130, 209);
+    color: green;
     font-weight: 900;
 }
 .Img{
@@ -260,7 +260,7 @@ header{
     
     font-weight: 700;
     font-size: 30px;
-    color:rgb(56, 130, 209);
+    color:green;
     font-family: 'Poppins' sans-serif;
 }
 
@@ -311,7 +311,7 @@ header{
 
 }
 .aboutInfo .about-title{
-    color:rgb(56, 130, 209);
+    color: green;
     font-size: 20px;
     font-weight: 700;
     text-align: center; 
@@ -352,7 +352,7 @@ padding-bottom: 0;
     height: 100%;
     left: 7px;
     top: 0;
-    background-color:rgb(56, 130, 209);
+    background-color:green;
 }
 .aboutsection .aboutInfo .circle-dot{
     position: absolute;
@@ -361,13 +361,13 @@ padding-bottom: 0;
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color:rgb(56, 130, 209);
+    background-color: green;
 }
 .aboutsection .aboutInfo .info-title{
     font-weight: 700;
     font-size: 15px;
     
-    color:rgb(56, 130, 209);
+    color: green;
 
 }
 .aboutsection .aboutInfo .timeline-text{
@@ -464,7 +464,7 @@ padding-bottom: 0;
 }
 .service-title{
     margin: 2rem;
-    color:rgb(56, 130, 209);
+    color: green;
 }
 
 .service-items {
@@ -512,7 +512,7 @@ padding-bottom: 0;
 }
 
 .service-inner-item h4{
-    color:rgb(56, 130, 209);
+    color: green;
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: 700;
@@ -536,7 +536,7 @@ padding-bottom: 0;
 
 /* ==========Contact ================= */
 .contact-title{
-    color:rgb(56, 130, 209);
+    color: green;
     text-align: center;
     
 }
@@ -565,7 +565,7 @@ padding-bottom: 0;
 
 h4 {
     margin: 10px 0; 
-    color:rgb(56, 130, 209);
+    color:green;
 }
 
 p {
@@ -575,7 +575,7 @@ p {
 .contact-message h3{
     text-align: center;
     margin-top: 2rem;
-    color:rgb(56, 130, 209);
+    color: green;
 
 }
 .contact-message h4{
@@ -651,7 +651,7 @@ textarea.form-control{
 
 .testimony h2 {
     text-align: center;
-    color: #3498db;
+    color: green;
     
 }
 .testimony h4{
