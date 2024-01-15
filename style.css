@@ -41,12 +41,6 @@ header{
     border-bottom: 1px solid;
     transition: all .45s ease;
 }
-.logo{
-    color:rgb(56, 130, 209);
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
 
 .navlist{
     display: flex;
